@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head>
+        <title>We are the Campeons!</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="app-container">
+            <img class="main-img" src="./assets/freddie.png">
+            <h1 class="main-title">We are the Champions</h1>
+            <textarea required placeholder="Write your endorsement there" id="endorsement-textarea" rows="6" cols="50">
+                
+            </textarea>
+            <div class="from-to-container"> 
+                <input placeholder="From" class="from-to-ip" id="from-ip" type="text">
+                <input placeholder="To" class="from-to-ip" id="to-ip" type="text">
+            </div>
+            <button id="publish-btn">Publish</button>
+            <h2 class="endorsement-title">- Endorsements -</h2>
+            <ul id="endorsement-list">
+            </ul>
+        </div>
+        <script src="index.js" type="module"></script>
+    </body>
+</html>

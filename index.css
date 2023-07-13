@@ -1,0 +1,136 @@
+:root {
+    --main-bg: #1B1924;
+    --titles-li_bg: #04131C;
+    --text-area-bg: #444059;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background: var(--main-bg);
+    user-select: none;
+}
+
+.app-container {
+    max-width: 320px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-img {
+    width: 90px;
+    align-self: center;
+}
+
+.main-title {
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif; 
+    margin: 20px 0;
+}
+
+#endorsement-textarea {
+    background-color: var(--text-area-bg);
+    border-radius: 8px;
+    border: none;
+    resize: none;
+    margin-bottom: 13px;
+    padding: 12px 16px;
+    font-style: 'Inter', sans-serif;
+    font-size: 15px;
+    line-height: normal;
+    color: #8F8F8F;
+    outline: none;
+}
+
+#endorsement-textarea::-moz-placeholder {
+    font-style: 'Inter', sans-serif;
+    color: #8F8F8F;
+}
+
+#endorsement-textarea::-webkit-input-placeholder {
+    font-style: 'Inter', sans-serif;
+    color: #8F8F8F;
+}
+
+.from-to-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    outline: none;
+    border: none;
+}
+
+.from-to-ip {
+    background-color: var(--text-area-bg);
+    width: 48%;
+    padding: 20px 8px;
+    height: 20px;
+    border-radius: 8px;
+    border: none;
+    
+    color: #8F8F8F;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+
+.endorsement-title {
+    color: #fff;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;   
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+#publish-btn {
+    font-size: 22px;
+    font-family: 'Josefin Sans', sans-serif; 
+    padding: 10px;
+    line-height: normal;
+    border-radius: 8px;
+    background: #28A9F1;
+    color: #04131C;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+#publish-btn:hover {
+    background: #28A9C0
+}
+
+.endorsement {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 11px 15px;
+    border-radius: 2px;
+    background: #fff;
+    margin-bottom: 13px;
+    width: 100%;
+    word-break:keep-all;
+    cursor: pointer;
+    
+    color: #1B1924;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    line-height: normal;
+}
+
+
+
+.empty-list-msg {
+    font-family: 'Inter', sans-serif;
+    line-height: normal;
+    color: #8F8F8F;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+}
