@@ -32,7 +32,6 @@ html, body {
     font-size: 25px;
     text-align: center;
     font-family: 'Josefin Sans', sans-serif; 
-    margin: 20px 0;
 }
 
 #endorsement-textarea {
@@ -117,6 +116,7 @@ html, body {
     width: 100%;
     word-break:keep-all;
     cursor: pointer;
+    position: relative;
     
     color: #1B1924;
     font-family: 'Inter', sans-serif;
@@ -124,7 +124,12 @@ html, body {
     line-height: normal;
 }
 
-
+.likes {
+    position: absolute;
+    right: 8px;
+    bottom: 4px;
+    padding: 5px;
+}
 
 .empty-list-msg {
     font-family: 'Inter', sans-serif;
