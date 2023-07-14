@@ -7,6 +7,10 @@ $ npm install
 $ npm start
 ````
 
+## This was a DIY project as a part of scrimba's frontend developer career path
+It is created using HTML, CSS, Javascript and firebase. Press on an item to delete it.
+Or press on heart icon to like/unlike.
+
 Head over to https://vitejs.dev/ to learn more about using vite
 ## About Scrimba
 
